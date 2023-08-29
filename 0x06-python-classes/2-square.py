@@ -8,7 +8,7 @@ class Square:
     """ Initializing square class
     Args:
         size: size os square
-    Raise:
+    Raises:
         TypeError: if size not int
         ValueError: if size less than 0
     """
