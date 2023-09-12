@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+""" imports from json """
+
+
+def load_from_json_file(filename):
+    """ json -> py obj """
+    with open(filename, 'r') as f:
+        return json.load(f)
