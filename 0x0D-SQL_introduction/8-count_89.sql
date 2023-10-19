@@ -1,2 +1,3 @@
 -- partiallly select
-SELECT * FROM first_table WHERE id=89;
+-- COUNT() function
+SELECT COUNT(*) FROM first_table WHERE id=89;
